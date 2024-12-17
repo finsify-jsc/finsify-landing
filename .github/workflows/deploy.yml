@@ -18,6 +18,7 @@ jobs:
       - name: Build website
         # working-directory: website
         run: |
+          sudo apt install python2
           npm install
           npm run build
 
