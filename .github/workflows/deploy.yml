@@ -16,10 +16,11 @@ jobs:
         with:
           node-version: 8.x
 
-      - name: Set up Python 2.7
-        uses: actions/setup-python@v4
-        with:
-          python-version: 2.7
+      - name: Install Python 2
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python2
+          sudo ln -sf /usr/bin/python2 /usr/bin/python  # Đảm bảo 'python' trỏ tới python2
 
       - name: Build website
         run: |
