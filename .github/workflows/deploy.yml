@@ -15,11 +15,14 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 8.x
+
+      - name: Set up Python 2.7
+        uses: actions/setup-python@v4
+        with:
+          python-version: 2.7
+
       - name: Build website
-        # working-directory: website
         run: |
-          sudo apt update
-          sudo apt install python2.7
           npm install
           npm run build
 
