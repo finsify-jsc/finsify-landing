@@ -1,0 +1,106 @@
+/*****-----VARIABLES-----******/
+$font-roboto : 'Roboto', sans-serif
+
+$screen-xs-max: 767px
+$screen-sm-min: 768px
+$screen-sm-max: 991px
+$screen-md-min: 992px
+$screen-md-max: 1199px
+$screen-lg-min: 1200px
+
+
+/*****-----MIXIN-----*****/
+=box-shadow($variable...)
+	box-shadow: $variable
+	-webkit-box-shadow: $variable
+	-moz-box-shadow: $variable
+
+=translate($horizontal, $vertical)
+	transform: translate($horizontal, $vertical)
+	-webkit-transform: translate($horizontal, $vertical)
+	-ms-transform: translate($horizontal, $vertical)
+
+=translateX($horizontal)
+	transform: translateX($horizontal)
+	-webkit-transform: translateX($horizontal)
+	-ms-transform: translateX($horizontal)
+
+=translateY($vertical)
+	transform: translateY($vertical)
+	-webkit-transform: translateY($vertical)
+	-ms-transform: translateY($vertical)
+
+=linear-gradient($from, $to)
+	background: $to
+	background: -ms-linear-gradient($from, $to)
+	background: -webkit-linear-gradient($from, $to)
+	background: -o-linear-gradient($from, $to)
+	background: -moz-linear-gradient($from, $to)
+	background: linear-gradient($from, $to)
+
+=rotation($deg)
+	-ms-transform: rotate($deg)
+	-webkit-transform: rotate($deg)
+	transform: rotate($deg)
+
+=rotation-transform($variable...)
+  -ms-transform-origin: $variable
+  -webkit-transform-origin: $variable
+  transform-origin: $variable
+
+=keyframes($name)
+	@-webkit-keyframes #{$name}
+		@content
+	@-moz-keyframes #{$name}
+		@content
+	@-ms-keyframes #{$name}
+		@content
+	@keyframes #{$name}
+		@content
+
+=animation($variable)
+	animation: $variable
+	-webkit-animation: $variable
+	-moz-animation: $variable
+	-o-animation: $variable
+
+=transition($variable)
+	-webkit-transition: $variable
+	-moz-transition: $variable
+	-o-transition: $variable
+	-ms-transition: $variable
+	transition: $variable
+
+=border-radius($variable)
+	-webkit-border-radius: $variable
+	-moz-border-radius: $variable
+	border-radius: $variable
+
+=background-clip($variable)
+	-webkit-background-clip: $variable
+	-moz-background-clip: $variable
+	background-clip: $variable
+
+=animation-duration($time)
+	-webkit-animation-duration: $time
+	-moz-animation-duration: $time
+	-ms-animation-duration: $time
+	-o-animation-duration: $time
+	animation-duration: $time
+=animation-delay($time)
+	-webkit-animation-delay: $time
+	-moz-animation-delay: $time
+	-ms-animation-delay: $time
+	-o-animation-delay: $time
+	animation-delay: $time
+
+=scale($x, $y)
+	-ms-transform: scale($x, $y)
+	-webkit-transform: scale($x, $y)
+	transform: scale($x, $y)
+
+=scaleX($x)
+  -moz-transform: scaleX($x)
+  -o-transform: scaleX($x)
+  -webkit-transform: scaleX($x)
+  transform: scaleX($x)

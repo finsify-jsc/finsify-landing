@@ -1,0 +1,92 @@
+[
+  {
+    "name" : "Ngô Xuân Huy",
+    "position" : "Boss",
+    "avatarUrl" : "images/team/xuanhuy.png"
+  },
+  {
+    "name" : "Trần Việt Dũng",
+    "position" : "iOS Developer",
+    "avatarUrl" : "images/team/vietdung.png"
+  },
+  {
+    "name" : "Nguyễn Thái Duy",
+    "position" : "iOS Developer",
+    "avatarUrl" : "images/team/thaiduy.png"
+  },
+  {
+    "name" : "Phạm Quang Thắng",
+    "position" : "iOS Developer",
+    "avatarUrl" : "images/team/quangthang.png"
+  },
+  {
+    "name" : "Lê Mỹ Anh",
+    "position" : "iOS Developer",
+    "avatarUrl" : "images/team/myanh.png"
+  },
+  {
+    "name" : "Hoàng Đức Tuấn",
+    "position" : "Android Developer",
+    "avatarUrl" : "images/team/ductuan.png"
+  },
+  {
+    "name" : "Kent Nguyễn",
+    "position" : "Android Developer",
+    "avatarUrl" : "images/team/kent.png"
+  },
+  {
+    "name" : "Nguyễn Duy Mạnh",
+    "position" : "Android Developer",
+    "avatarUrl" : "images/team/duymanh.png"
+  },
+  {
+    "name" : "Phan Thế Nhân",
+    "position" : "Winphone Developer",
+    "avatarUrl" : "images/team/phannhan.png"
+  },
+  {
+    "name" : "Tô Thành Công",
+    "position" : "Marketing Team",
+    "avatarUrl" : "images/team/thanhcong.png"
+  },
+  {
+    "name" : "Đặng Ngọc Khánh Linh",
+    "position" : "Marketing Team",
+    "avatarUrl" : "images/team/khanhlinh.png"
+  },
+  {
+    "name" : "Nguyễn Cao Hoàng Phương",
+    "position" : "Marketing Team",
+    "avatarUrl" : "images/team/hoangphuong.png"
+  },
+  {
+    "name" : "Đào Khánh Linh",
+    "position" : "Marketing Team",
+    "avatarUrl" : "images/team/khanhlinh2.png"
+  },
+  {
+    "name" : "Đỗ Trịnh Minh Hoàng",
+    "position" : "Support Team",
+    "avatarUrl" : "images/team/minhoang.png"
+  },
+  {
+    "name" : "Phạm Quang Nghĩa",
+    "position" : "Designer",
+    "avatarUrl" : "images/team/quangnghia.png"
+  },
+  {
+    "name" : "Phạm Tuấn Cường",
+    "position" : "Backend Developer",
+    "avatarUrl" : "images/team/tuancuong.png"
+  },
+  {
+    "name" : "Lê Văn Cương",
+    "position" : "Backend Developer",
+    "avatarUrl" : "images/team/vancuong.png"
+  },
+  {
+    "name" : "Nguyễn Anh Đức",
+    "position" : "Frontend Developer",
+    "avatarUrl" : "images/team/anhduc.png"
+  }
+]
